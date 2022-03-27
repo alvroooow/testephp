@@ -13,6 +13,7 @@
 <br>
 <br>
 <br>
+<tr>
 <center>
  <form action="login.php" method="post">   
 <table>   
@@ -22,4 +23,5 @@
 </table>  
 </form> 
 </center>
+</tr>
 
