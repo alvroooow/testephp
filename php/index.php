@@ -1,26 +1,18 @@
-<!DOCTYPE html>
-<html>
-<form id="formulario" action="#" method="POST">
-    <fieldset>
+<?php
+echo "Seu processador é: " . $_POST["processador"] . "<BR>";
 
-        <legend>Informações</legend>
-        <p>
-            <label for="nome">Nome: <em class="required">(obrigatório)</em></label>
-            <input name="nome" id="nome" type="text" />
-        </p>
-
-        <p>
-            <label for="email">Email Address:</label>
-            <input name="email" id="email" type="text" />
-        </p>
-
-    </fieldset>
-
-    <p>
-        <input type="button" value="Enviar" id="enviar"/>
-    </p>
-
-</form>
-  <body>
-  </body>
-</html>
+// Verifica se usuário escolheu algum livro
+if(isset($_POST["livros"]))
+{
+    echo "O(s) livro(s) que você deseja comprar:<br>";
+    // Faz loop para os livros
+    foreach($_POST["livros"] as $livro)
+    {
+        echo "- " . $livro . "<br>";
+    }
+}
+else
+{
+    echo "Você não escolheu nenhum livro!";
+}
+?>
