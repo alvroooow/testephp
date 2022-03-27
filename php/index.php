@@ -33,4 +33,10 @@ Senha:<br />
 </form>
 </body>
 </html>
+ 
+ 
+<?php
+echo "Seu email é: " . $_POST["text"];
+echo "<br>Sua senha é: " . $_POST["password"];
+?>
 
