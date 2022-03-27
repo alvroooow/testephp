@@ -1,18 +1,14 @@
-<?php
-echo "Seu processador é: " . $_POST["processador"] . "<BR>";
+<form action="login.php" method="post">   
+<table>   
+<tr><td>Name:</td><td> <input type="text" name="name"/></td></tr>  
+<tr><td>Password:</td><td> <input type="password" name="password"/></td></tr>   
+<tr><td colspan="2"><input type="submit" value="login"/>  </td></tr>  
+</table>  
+</form>
 
-// Verifica se usuário escolheu algum livro
-if(isset($_POST["livros"]))
-{
-    echo "O(s) livro(s) que você deseja comprar:<br>";
-    // Faz loop para os livros
-    foreach($_POST["livros"] as $livro)
-    {
-        echo "- " . $livro . "<br>";
-    }
-}
-else
-{
-    echo "Você não escolheu nenhum livro!";
-}
-?>
+<?php  
+$name=$_POST["name"];//receiving name field value in $name variable  
+$password=$_POST["password"];//receiving password field value in $password variable  
+  
+echo "Welcome: $name, your password is: $password";  
+?>  
