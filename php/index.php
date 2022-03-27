@@ -13,13 +13,27 @@
 <br>
 <br>
 <br>
+<html>
+<head>
 <center>
- <form action="login.php" method="post">   
-<table>   
-<tr><td>Name:</td><td> <input type="text" name="name"/></td></tr>  
-<tr><td>Password:</td><td> <input type="password" name="password"/></td></tr>   
-<tr><td colspan="2"><input type="submit" value="login"/>  </td></tr>  
-</table>  
-</form> 
-</center>
+<title>Formulário de Login</title>
+</head>
+<body>
+<h1>Formulário de Login</h1>
+<form method="post" action="efetuar-login.php">
+<fieldset>
+<legend>Informe seu e-mail e senha</legend>
+E-mail:<br />
+<input type="text" name="email" />
+<br /><br />
+Senha:<br />
+<input type="password" name="senha" />
+</fieldset>
+<br />
+<input type="submit" value="Efetuar Login" />
+<input type="reset" value="Cancelar" />
+ </center>
+</form>
+</body>
+</html>
 
