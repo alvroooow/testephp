@@ -9,16 +9,13 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 <html>
 <head>
 <center>
 <title>Formulário de Login</title>
 </head>
 <body>
+<body bgcolor="#B0C4DE">
 <h1>Formulário de Login</h1>
 <form method="post" action="efetuar-login.php">
 <fieldset>
