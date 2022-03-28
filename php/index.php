@@ -27,16 +27,10 @@ Senha:<br />
 <input type="password" name="senha" />
 </fieldset>
 <br />
-<input type="submit" value="Efetuar Login" />
-<input type="reset" value="Cancelar" />
+<input type="" value="Efetuar Login" />
+<input type="" value="Cancelar" />
  </center>
 </form>
 </body>
 </html>
  
- 
-<?php
-echo "Seu email é: " . $_POST["text"];
-echo "<br>Sua senha é: " . $_POST["password"];
-?>
-
