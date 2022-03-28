@@ -27,8 +27,8 @@ Senha:<br />
 <input type="password" name="senha" />
 </fieldset>
 <br />
-<input type="" value="Efetuar Login" />
-<input type="" value="Cancelar" />
+<input type="reset" value="Efetuar Login" />
+<input type="reset" value="Cancelar" />
  </center>
 </form>
 </body>
